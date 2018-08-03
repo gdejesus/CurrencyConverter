@@ -1,0 +1,2 @@
+[31-Jul-2018 22:06:42 America/Argentina/Buenos_Aires] PHP Warning:  require_once(/home/netdevweb/cconverter.netdevweb.com/system/core/CodeIgniter.php): failed to open stream: No such file or directory in /home/netdevweb/cconverter.netdevweb.com/index.php on line 315
+[31-Jul-2018 22:06:42 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required '/home/netdevweb/cconverter.netdevweb.com/system/core/CodeIgniter.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/netdevweb/cconverter.netdevweb.com/index.php on line 315

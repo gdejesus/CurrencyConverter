@@ -1,0 +1,101 @@
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgb(15, 12, 41), rgb(48, 43, 99), rgb(36, 36, 62)) !important;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 90%;
+  max-height: 600px;
+  max-width: 1000px;
+  color: white;
+  text-align: center;
+  padding: 2px;
+}
+
+.black-text
+{
+  color: black;
+}
+
+.column
+{
+    float: left;
+    width: 50%;
+        margin-bottom: 15px;
+        display: inline-block;
+}
+
+.full-column
+{
+    width: 100%;
+    display: inline-block;
+}
+
+.content-column
+{
+  float: left;
+  width: 50%;
+  display: inline-block;
+}
+
+.mini-left
+{
+  float: left;
+  width: 25%;
+  display: inline-block;
+}
+
+.c-content
+{
+  width: 100%;
+  height: 26px;
+}
+
+@media (max-width: 799px)
+{
+  .column, .content-column
+  {
+    width: 100%;
+  }
+
+  .halfeable
+  {
+    width: 50% !important;
+  }
+}
+
+.full-row-text
+{
+  width: 100%;
+  display: inline-block;
+}
+
+.conversor-button
+{
+  width: 87px;
+}
+
+.modal-body
+{
+  text-align: center;
+}
+
+#modal-loading
+{
+  content:url(../img/loading.gif);
+  width: auto; /*or your image's width*/
+  height: auto; /*or your image's height*/
+  margin: 0;
+  padding: 0;
+}
