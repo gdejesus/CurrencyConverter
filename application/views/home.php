@@ -15,7 +15,7 @@
               <div class="column">
 
                 <div class="content-column">
-                  <input type="number" class="black-text c-content" id="input-amount" name="input-amount"></input>
+                  <input type="number" class="black-text c-content" id="input-amount" name="input-amount" min="1"></input>
                 </div>
 
                 <div class="content-column">
