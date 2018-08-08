@@ -123,7 +123,6 @@ function getHistorical()
     $.post("http://cconverter.netdevweb.com/index.php/Currency/get_historical_conversion_html", data,
     function(data)
     {
-      debugger;
       $("#modal-body").html(data);
     });
   }
